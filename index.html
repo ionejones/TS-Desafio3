@@ -9,36 +9,17 @@
     <link rel="stylesheet"  href="./assets/css/style.css">
 </head>
 <body>
-    <div>
-        <h4>Usuário : </h4><input id="login" onchange="preencherLogin(event)">
-        <h4>Senha : </h4><input id="senha" onchange="preencherSenha(event)">
-        <h4>Api Key : </h4><input id="api-key" onchange="preencherApi(event)">
-        <button id="login-button">Login</button>
+    <div class="todos">
+        <div class="valor">
+            <h4>Valor a ser adicionado : <input id="soma"> </h4>
+        </div>
+        <div class="botoes">
+            <button id="atualizar-saldo">Atualizar saldo</button>
+            <button id="limpar-saldo">Limpar seu saldo</button>
+        </div>
+        <div class="saldo">
+            <h1>Seu saldo é:  <span id="campo-saldo"></span></h1>
+        </div>
     </div>
-    <!-- <div class="maior">
-        <div class="login">
-            <p>Usuario :</p>
-            <input class="inputs"  id="login" placeholder="Login" onchange="preencherLogin(event)">
-            <p>Senha :</p>
-            <input class="inputs" id="senha" placeholder="Senha" type="password" onchange="preencherSenha(event)">
-            <p>Chave :</p>
-                <input class="inputs" id="api-key" placeholder="Api Key" enabled onchange="preencherApi(event)">
-                <button id="login-button">Login</button>
-        </div>
-        <br><br><br>
-        <div class="pesquisa" id="search-container">
-                <input id="search" placeholder="Escreva...">
-                <button id="search-button">Pesquisar Filme</button>
-        </div>
-    </div> -->
 </body>
-
-<!-- Desafio 3 : -->
-<!-- <body>
-    <h4>Valor a ser adicionadooo: <input id="soma"> </h4>
-    <button id="atualizar-saldo">Atualizar saldo</button>
-    <button id="limpar-saldo">Limpar seu saldo</button>
-    <h1>"Seu saldo é: " <span id="campo-saldo"></span></h1>
-
-</body> -->
 </html>
